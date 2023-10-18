@@ -1,0 +1,45 @@
+{
+  "name": "restful-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "18.17.0"
+  },
+  "scripts": {
+    "start": "set NODE_ENV=production&& set MONGO_USER=bolesnabilshoukry&& set MONGO_PASSWORD=zFEkHujDSDX0TAYS&& set MONGO_DEFAULT_DATABASE=clinic&& set STRIPE_KEY=sk_test_51NfoS6G1LIbeth4ZTsPaCsI2eTY2AOlASGmrkqfcciZgi7vUNctpe22gbW9LXxIRh2wptPdfuUwSrDXKVYB9akOo00ddqObUWN&& node app.js",
+    "start-server": "node app.js",
+    "start:dev": "nodemon app.js",
+    "test": "jest"
+  },
+  "author": "Boles Nabil",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^1.40.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^5.3.0",
+    "helmet": "^7.0.0",
+    "joi": "^17.10.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.3",
+    "mongoose-mock": "^0.4.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.6",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "socket.io": "^4.7.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  }
+}

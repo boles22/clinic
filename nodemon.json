@@ -1,0 +1,9 @@
+{
+    "env": {
+        "MONGO_USER": "bolesnabilshoukry",
+        "MONGO_PASSWORD": "zFEkHujDSDX0TAYS",
+        "MONGO_DEFAULT_DATABASE": "clinic",
+        "NODE_ENV": "production",
+        "STRIPE_KEY": "sk_test_51NfoS6G1LIbeth4ZTsPaCsI2eTY2AOlASGmrkqfcciZgi7vUNctpe22gbW9LXxIRh2wptPdfuUwSrDXKVYB9akOo00ddqObUWN"
+    }
+}
